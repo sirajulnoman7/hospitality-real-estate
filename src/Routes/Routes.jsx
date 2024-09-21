@@ -3,6 +3,7 @@ import Root from "../Components/Root/Root";
 import Home from "../Pages/Home";
 import Login from "../Pages/Login";
 import Register from "../Pages/Register";
+import ApartmentDetails from "../Pages/ApartmentDetails";
 
 
  const router=createBrowserRouter([
@@ -23,6 +24,11 @@ import Register from "../Pages/Register";
             {
                 path:'/register',
                 element:<Register></Register>
+            },
+            {
+                path:'/apartment/:id',
+                loader:()=> fetch('../../public/hotels.json'),
+                element:<ApartmentDetails></ApartmentDetails>
             }
         ]
     }

@@ -1,13 +1,14 @@
  [
       {
         "id": 1,
+        "profile_image":"https://i.ibb.co.com/Hg4vLPy/agent-2.jpg",
         "bed": 1,
         "shower":3,
         "estate_title": "Greenwood Heights",
         "segment_name": "Luxury Apartments",
         "description": "A luxurious 3-bedroom apartment with a city skyline view.",
         "price": "$650,000",
-        "status": "sale",
+        "status": "Sale",
         "area": "2000 sq ft",
         "location": "New York, NY",
         "images": [
@@ -19,13 +20,14 @@
       },
       {
         "id": 2,
+        "profile_image":"https://i.ibb.co.com/2Z2YFdN/agent-3.jpg",
         "bed": 3,
         "shower":4,
         "estate_title": "Oceanfront Villas",
         "segment_name": "Beachside Villas",
         "description": "Spacious 5-bedroom villa with direct access to the beach.",
         "price": "$2,500,000",
-        "status": "sale",
+        "status": "Sale",
         "area": "3500 sq ft",
         "location": "Miami, FL",
         "images": [
@@ -37,13 +39,14 @@
       },
       {
         "id": 3,
+       "profile_image":"https://i.ibb.co.com/MZ01gNT/agent-1.jpg",
         "bed": 5,
         "shower":3,
         "estate_title": "Mountainview Retreat",
         "segment_name": "Resort Homes",
         "description": "Charming 4-bedroom home nestled in the mountains.",
         "price": "$750,000",
-        "status": "rent",
+        "status": "Rent",
         "area": "2500 sq ft",
         "location": "Aspen, CO",
         "images": [
@@ -55,13 +58,14 @@
       },
       {
         "id": 4,
+        "profile_image":"https://i.ibb.co.com/Hg4vLPy/agent-2.jpg",
         "bed": 2,
         "shower":4,
         "estate_title": "Downtown Loft",
         "segment_name": "Modern Lofts",
         "description": "Modern 2-bedroom loft located in the heart of downtown.",
         "price": "$3,200/month",
-        "status": "rent",
+        "status": "Rent",
         "area": "1200 sq ft",
         "location": "San Francisco, CA",
         "images": [
@@ -73,13 +77,14 @@
       },
       {
         "id": 5,
+        "profile_image":"https://i.ibb.co.com/Hg4vLPy/agent-2.jpg",
         "bed": 6,
         "shower":5,
         "estate_title": "Riverside Residence",
         "segment_name": "Family Homes",
         "description": "Beautiful 4-bedroom home with a riverside view and large backyard.",
         "price": "$980,000",
-        "status": "sale",
+        "status": "Sale",
         "area": "2800 sq ft",
         "location": "Austin, TX",
         "images": [
@@ -91,13 +96,15 @@
       },
       {
         "id": 6,
+        "profile_image":"https://i.ibb.co.com/Hg4vLPy/agent-2.jpg",
+
         "bed": 1,
         "shower":3,
         "estate_title": "Urban Penthouse",
         "segment_name": "Penthouse Suites",
         "description": "Exclusive 3-bedroom penthouse with panoramic city views.",
         "price": "$4,500,000",
-        "status": "sale",
+        "status": "Sale",
         "area": "4000 sq ft",
         "location": "Los Angeles, CA",
         "images": [

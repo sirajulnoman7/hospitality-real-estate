@@ -12,7 +12,7 @@ const Categories = () => {
         <div className='grid gap-5 my-3'>
             <div className='grid grid-cols-4 gap-4 '>
 
-                <div className='col-span-2 border opacity'>
+                <div className='col-span-2 border  hover:scale-105'>
                     <Link to={'/apartment'}>
                         <div className='relative hover:opacity-90' >
                             <div className='absolute flex justify-center items-center h-full w-full bg-opacity-20'>
@@ -27,7 +27,7 @@ const Categories = () => {
                     </Link>
                 </div>
 
-                <div className='border'>
+                <div className='border hover:scale-105'>
                     <Link to={'/shop'}>
                         <div className='relative hover:opacity-90' >
                             <div className='absolute flex justify-center items-center h-full w-full '>
@@ -41,7 +41,7 @@ const Categories = () => {
                         </div>
                     </Link>
                 </div>
-                <div className='border'>
+                <div className='border hover:scale-105'>
                     <Link to={'/office'}>
                         <div className='relative' >
                             <div className='absolute flex justify-center items-center h-full w-full'>

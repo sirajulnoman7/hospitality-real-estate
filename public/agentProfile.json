@@ -1,0 +1,120 @@
+ [
+      {
+        "id": 1,
+        "image":"https://i.ibb.co.com/MZ01gNT/agent-1.jpg",
+        "name": "John Doe",
+        "company": {
+          "name": "Prime Realty Solutions",
+          "agent": "Company Agent , All American House Real Estate"
+        },
+        "short_bio": "John Doe is a seasoned real estate agent with over 15 years of experience in the industry. He began his career working with residential properties but soon expanded his portfolio to include commercial real estate. John's deep understanding of market trends has made him a trusted advisor to clients looking to buy, sell, or invest in real estate. He specializes in luxury homes, vacation properties, and investment opportunities. John believes in providing personalized services and takes pride in the relationships he builds with his clients. Over the years, he has successfully closed hundreds of deals and is known for his negotiation skills. John stays up to date with the latest technologies to enhance the buying and selling experience for his clients. He frequently attends industry seminars and is a certified expert in property valuation. John's commitment to ethical practices ensures that his clients are always informed and empowered to make the best decisions. His team at Prime Realty Solutions is known for their professionalism and efficiency. John is passionate about helping clients achieve their real estate goals, whether they're buying their first home or expanding their investment portfolio. He is a licensed agent with a strong reputation in the local real estate market. John's experience and network allow him to offer exclusive listings that aren't available elsewhere. His success is reflected in the glowing reviews from satisfied clients. When he's not working, John enjoys spending time with his family and staying active in his community.",
+        "agent_license": "RE-1234567",
+        "tax_number": "TX-987654321",
+        "service_area": "New York, NY",
+        "specialities": ["Luxury Homes", "Investment Properties", "Commercial Real Estate", "Vacation Homes"],
+        "rating": 4.8,
+        "property_info": {
+          "types": ["Residential", "Commercial", "Vacation Homes", "Luxury Homes"],
+          "status": ["For Sale", "For Rent", "Sold", "Leased"],
+          "cities": ["New York", "Los Angeles", "Miami", "Chicago"]
+        },
+        "about": "John Doe has built a reputation as one of the most trusted and knowledgeable real estate agents in the New York market.",
+        "contact_info": {
+          "number": "(555) 123-4567",
+          "email": "johndoe@primerealty.com",
+          "fax": "(555) 765-4321",
+          "office": "(555) 234-5678",
+          "website": "www.primerealty.com"
+        },
+        "languages": ["English", "Spanish"]
+      },
+      {
+        "id": 2,
+        "image":"https://i.ibb.co.com/Hg4vLPy/agent-2.jpg",
+        "name": "Jane Smith",
+        "company": {
+          "name": "Coastal Realty Group",
+            "agent": "Company Agent , Country House Real Estate"
+        },
+        "short_bio": "Jane Smith is a leading real estate agent specializing in waterfront properties. With over 10 years of experience, she has become known for her expertise in selling and renting coastal homes. Jane has built strong relationships with her clients through transparency and dedication. She also offers valuable insights into investment properties in Miami and other beachside locations. Jane’s professional background includes numerous certifications in luxury property sales, and she’s a trusted name in the high-end real estate market.",
+        "agent_license": "RE-8765432",
+        "tax_number": "TX-123456789",
+        "service_area": "Miami, FL",
+        "specialities": ["Waterfront Properties", "Luxury Homes", "Investment Properties"],
+        "rating": 4.9,
+        "property_info": {
+          "types": ["Residential", "Vacation Homes", "Luxury Homes", "Waterfront Properties"],
+          "status": ["For Sale", "For Rent", "Sold", "Leased"],
+          "cities": ["Miami", "Fort Lauderdale", "Naples", "Tampa"]
+        },
+        "about": "Jane Smith is renowned for her unmatched knowledge of Miami’s waterfront real estate market.",
+        "contact_info": {
+          "number": "(555) 234-5678",
+          "email": "janesmith@coastalrealty.com",
+          "fax": "(555) 876-5432",
+          "office": "(555) 345-6789",
+          "website": "www.coastalrealty.com"
+        },
+        "languages": ["English", "French"]
+      },
+      {
+        "id": 3,
+        "image":"https://i.ibb.co.com/2Z2YFdN/agent-3.jpg",
+        "name": "Michael Johnson",
+        "company": {
+          "name": "UrbanSpace Realty",
+          "agent": "Company Agent , Modern House Real Estate"
+        },
+        "short_bio": "Michael Johnson has been a real estate agent in the urban property market for over 8 years. He focuses on residential and commercial real estate in major cities, particularly New York and Chicago. Michael's analytical approach to real estate allows him to find the best opportunities for his clients. He’s a firm believer in data-driven decision-making and stays updated on market trends to provide clients with accurate information and advice. His track record includes successful deals in both high-end apartments and commercial office spaces.",
+        "agent_license": "RE-2345678",
+        "tax_number": "TX-345678912",
+        "service_area": "Chicago, IL",
+        "specialities": ["Urban Properties", "Commercial Real Estate", "Apartments"],
+        "rating": 4.7,
+        "property_info": {
+          "types": ["Commercial", "Residential", "Apartments", "Condos"],
+          "status": ["For Sale", "For Rent", "Sold", "Leased"],
+          "cities": ["Chicago", "New York", "San Francisco", "Boston"]
+        },
+        "about": "Michael Johnson excels in navigating the complexities of urban real estate markets.",
+        "contact_info": {
+          "number": "(555) 345-6789",
+          "email": "michaeljohnson@urbanspacerealty.com",
+          "fax": "(555) 234-5678",
+          "office": "(555) 456-7890",
+          "website": "www.urbanspacerealty.com"
+        },
+        "languages": ["English", "German"]
+      },
+      {
+        "id": 4,
+        "image":"https://i.ibb.co.com/qdbKLMJ/agent-4.jpg",
+        "name": "Emma Watson",
+        "company": {
+          "name": "Watson Real Estate",
+          "agent": "Company Agent , Modern House Real Estate"
+        },
+        "short_bio": "Emma Watson is a highly regarded real estate professional, focusing on family homes and suburban properties. With over 12 years of experience, she has assisted hundreds of families in finding their dream homes. Emma is known for her friendly and approachable demeanor, making the buying or selling process comfortable and smooth for her clients. She specializes in suburban real estate and provides expert guidance on family-oriented neighborhoods and schools. Emma's knowledge of the local market helps her negotiate the best deals for her clients.",
+        "agent_license": "RE-4567890",
+        "tax_number": "TX-678901234",
+        "service_area": "Los Angeles, CA",
+        "specialities": ["Family Homes", "Suburban Properties", "Luxury Homes"],
+        "rating": 4.85,
+        "property_info": {
+          "types": ["Residential", "Family Homes", "Luxury Homes", "Suburban Properties"],
+          "status": ["For Sale", "For Rent", "Sold", "Leased"],
+          "cities": ["Los Angeles", "San Diego", "Santa Monica", "Pasadena"]
+        },
+        "about": "Emma Watson has a passion for helping families find homes in the best neighborhoods around Los Angeles.",
+        "contact_info": {
+          "number": "(555) 456-7890",
+          "email": "emmawatson@watsonrealestate.com",
+          "fax": "(555) 543-2109",
+          "office": "(555) 567-8901",
+          "website": "www.watsonrealestate.com"
+        },
+        "languages": ["English", "Spanish"]
+      }
+    ]
+ 
+  
