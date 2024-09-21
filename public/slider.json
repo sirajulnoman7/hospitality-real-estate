@@ -1,0 +1,80 @@
+ [
+      {
+        "id": 1,
+        "image":"https://i.ibb.co.com/4JvyNFC/bailey-anselme-Bkp3g-Lygye-A-unsplash.jpg",
+        "type": "rent",
+        "location": "New York, NY",
+        "short_info": "Luxury apartment with 3 bedrooms and city view",
+        "price": "$4,500/month",
+        "area": "1200 sq ft",
+      "name": "Skyline Apartments",
+      "bed": 3
+      },
+      {
+        "id": 2,
+        "image":  "https://i.ibb.co.com/WkCnJLz/daniel-barnes-RKd-Ll-Tyjm5g-unsplash.jpg",
+        "type": "sell",
+        "location": "Miami, FL",
+        "short_info": "Beachfront villa with 5 bedrooms and private pool",
+        "price": "$2,500,000",
+        "area": "3000 sq ft",
+      "name": "Ocean Breeze Villa",
+      "bed": 5
+      },
+      {
+        "id": 3,
+        "image":"https://i.ibb.co.com/3S5XBkW/david-samuel-levinson-lqq-UCTc-Qs-Xw-unsplash.jpg",
+        "type": "rent",
+        "location": "San Francisco, CA",
+        "short_info": "Modern loft with 2 bedrooms near downtown",
+        "price": "$3,800/month",
+        "area": "950 sq ft",
+        "name": "Downtown Lofts",
+        "bed": 2
+      },
+      {
+        "id": 4,
+        "image": "https://i.ibb.co.com/1Qkntt4/frames-for-your-heart-2d4l-AQAlb-DA-unsplash.jpg",
+        "type": "sell",
+        "location": "Austin, TX",
+        "short_info": "Cozy 4-bedroom home with large backyard",
+        "price": "$650,000",
+        "area": "1800 sq ft",
+        "name": "Greenwood Estates",
+        "bed": 4
+      },
+      {
+        "id": 5,
+        "image": "https://i.ibb.co.com/6WKn4Cm/francesca-tosolini-6jap-TIj-UQo-I-unsplash.jpg",
+        "type": "rent",
+        "location": "Chicago, IL",
+        "short_info": "Spacious 2-bedroom apartment in the heart of the city",
+        "price": "$3,200/month",
+        "area": "1300 sq ft",
+        "name": "City Heights",
+        "bed": 2
+      },
+      {
+        "id": 6,
+        "image": "https://i.ibb.co.com/YjN8TcY/francesca-tosolini-t-Hk-JAMc-O3-QE-unsplash.jpg",
+        "type": "sell",
+        "location": "Los Angeles, CA",
+        "short_info": "Stylish penthouse with stunning ocean views",
+        "price": "$3,750,000",
+        "area": "2200 sq ft",
+        "name": "Pacific View Penthouse",
+        "bed": 4
+      },
+      {
+        "id": 7,
+        "image": "https://i.ibb.co.com/CWRKB9r/francesca-tosolini-Xc-Vm8mn7-NUM-unsplash.jpg",
+        "type": "rent",
+        "location": "Seattle, WA",
+        "short_info": "Charming 1-bedroom apartment near Pike Place Market",
+        "price": "$2,100/month",  "area": "850 sq ft",
+        "name": "Market Street Apartments",
+        "bed": 1
+      }
+    ]
+ 
+  
