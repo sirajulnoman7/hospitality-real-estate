@@ -1,11 +1,29 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useContext } from 'react';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
+import { AuthContext } from '../../MainContext/MainContext';
 
 const Navbar = () => {
+    
+    const {user,logOut}=useContext(AuthContext)
+    
+    const signOutHandler=()=>{
+       logOut()
+       .then(() => {
+        // Sign-out successful.
+      })
+       .catch(error=>console.log(error))
+    }
+  
     const links = <>
         <li><NavLink to={'/'}>Home</NavLink></li>
-        <li><NavLink to={'/login'}>Login</NavLink></li>
-        <li><NavLink to={'/register'}>Register</NavLink></li>
+        <li><NavLink to={'/about'}>About</NavLink></li>
+        <li><NavLink to={'/profile'}>Update Profile</NavLink></li>
+       {
+        !user && <>
+         <li><NavLink to={'/login'}>Login</NavLink></li>
+         <li><NavLink to={'/register'}>Register</NavLink></li>
+        </>
+       }
     </>
     return (
         <div className="navbar bg-base-100">
@@ -40,11 +58,21 @@ const Navbar = () => {
             </div>
             <div className="navbar-end ">
                 <div className="w-10 mr-3 ">
+                   {
+                    user?.photoURL ?  <img className='rounded-full'
+                    
+                    src={user?.photoURL} />
+                    :
                     <img className='rounded-full'
-                        alt="Tailwind CSS Navbar component"
-                        src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                    alt="Tailwind CSS Navbar component"
+                    src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                   }
                 </div>
-                <a className="btn">Button</a>
+                {
+                    user ?  <button onClick={signOutHandler} className='btn btn-info'><p>Sign Out</p></button>
+                    : <Link to={'/login'}><button className='btn btn-info'>Login</button></Link> 
+                }
+               
             </div>
         </div>
     );

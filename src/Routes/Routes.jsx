@@ -4,6 +4,8 @@ import Home from "../Pages/Home";
 import Login from "../Pages/Login";
 import Register from "../Pages/Register";
 import ApartmentDetails from "../Pages/ApartmentDetails";
+import UpdateProfile from "../Components/UpdateProfile/UpdateProfile";
+import PrivateRoute from "./PrivateRoute";
 
 
  const router=createBrowserRouter([
@@ -26,9 +28,13 @@ import ApartmentDetails from "../Pages/ApartmentDetails";
                 element:<Register></Register>
             },
             {
+                path:'/profile',
+                element:<PrivateRoute><UpdateProfile></UpdateProfile></PrivateRoute>
+            },
+            {
                 path:'/apartment/:id',
                 loader:()=> fetch('../../public/hotels.json'),
-                element:<ApartmentDetails></ApartmentDetails>
+                element:<PrivateRoute><ApartmentDetails></ApartmentDetails></PrivateRoute>
             }
         ]
     }
